@@ -17,6 +17,10 @@ namespace DriverLicense
 
         public void testing()
         {
+            Console.WriteLine("Welcome to your local DMV Office where you will be taking a drivers license test");
+            Console.WriteLine("You will be taking a multiple-choice (A,B,C,D) 20 questioned test");
+            Console.WriteLine("Lets Begin the test");
+
             for(int i = 0; i < TestAnswers.Count; i++)
             {
                 Console.Write("Question {0}: ", i + 1);
